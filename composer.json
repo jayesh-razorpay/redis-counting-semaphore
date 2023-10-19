@@ -15,9 +15,16 @@
 		}
 	},
 	"require": {
-		"predis/predis": "^1.1",
+		"predis/predis": "dev-sc-close-resource-check",
 		"ramsey/uuid": "^3.7|^4.0"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"no-api": true,
+			"url": "git@github.com:jayesh-razorpay/predis.git"
+		}
+	],
 	"require-dev": {
 		"symfony/process": "^4.0"
 	},
